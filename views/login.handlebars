@@ -1,0 +1,47 @@
+<div class="login">
+
+    <h2>
+        Login
+    </h2>
+
+    <!-- Make a new account -->
+    <form class="login-form">
+
+        <p>Please enter your information to log in.</p>
+
+        <br />
+
+        <!-- Username entry box -->
+        <label for="user_name">
+        Username:
+        </label>
+        <br />
+        <textarea id="user_name" name="user_name" rows="2" cols="30">
+        {{user_name}}
+        </textarea>
+        <br />
+
+        <!-- Password name entry box -->
+        <label for="pass_word">
+        Password:
+        </label>
+        <br />
+        <textarea id="pass_word" name="pass_word" rows="2" cols="30">
+        {{pass_word}}
+        </textarea>
+        <br />
+
+        <!-- Submit button -->
+        <button type="login" value="Login">
+        Login
+        </button>
+
+        <!-- Submit button -->
+        <button type="new_account" value="Create">
+        Make New Account
+        </button>
+        
+    </form>
+</div>
+
+<script src="/js/UPDATETHIS.js"></script>
