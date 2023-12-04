@@ -1,0 +1,13 @@
+:root {
+    --header:#96190b;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
